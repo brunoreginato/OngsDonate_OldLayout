@@ -17,6 +17,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+//    [[UIBarButtonItem appearance] setBackButtonBackgroundImage:[[UIImage imageNamed:@"back-red"] resizableImageWithCapInsets:UIEdgeInsetsMake(0, 12.0, 0, 12.0)] forState:UIControlStateNormal barMetrics:UIBarMetricsDefault];
+//    
     return YES;
 }
 
