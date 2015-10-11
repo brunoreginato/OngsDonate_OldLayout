@@ -6,7 +6,8 @@
 //  Copyright (c) 2015 ong. All rights reserved.
 //
 
-#import "ODUIConstants.h"
+#import "UIFont+ODFonts.h"
+#import "UIColor+ODColors.h"
 #import "AppDelegate.h"
 
 @interface AppDelegate ()

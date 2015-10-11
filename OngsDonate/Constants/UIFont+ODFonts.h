@@ -11,7 +11,13 @@
 @interface UIFont (ODFonts)
 
 +(UIFont *)ODTextFieldFont;
+
 +(UIFont *)ODButtonFont;
+
 +(UIFont *)ODBoldButtonFont;
+
++(UIFont *)ODBoldLabelFont;
+
++(UIFont *)ODLabelFont;
 
 @end

@@ -5,7 +5,7 @@
 //  Created by Bruno Isola Reginato on 10/10/15.
 //  Copyright (c) 2015 ong. All rights reserved.
 //
-#import "ODUIConstants.h"
+#import "UIColor+ODColors.h"
 #import "ODSignUpView.h"
 
 @implementation ODSignUpView

@@ -7,7 +7,8 @@
 //
 
 #import "ODTextField.h"
-#import "ODUIConstants.h"
+#import "UIFont+ODFonts.h"
+#import "UIColor+ODColors.h"
 
 @interface ODTextField()
 

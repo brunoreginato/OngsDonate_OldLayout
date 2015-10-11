@@ -17,7 +17,6 @@
 		FAA486601BA3B0C400992085 /* ODInitialView.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA4865F1BA3B0C400992085 /* ODInitialView.m */; };
 		FAA486631BA3B0E000992085 /* ODInitialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA486621BA3B0E000992085 /* ODInitialViewController.m */; };
 		FAB9DC071BA4B01D00A9FA4E /* ODTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB9DC061BA4B01D00A9FA4E /* ODTextField.m */; };
-		FAB9DC0B1BA5DA4E00A9FA4E /* ODUIConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB9DC0A1BA5DA4E00A9FA4E /* ODUIConstants.m */; };
 		FAB9DC0E1BA5DD3500A9FA4E /* UIColor+ODColors.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB9DC0D1BA5DD3500A9FA4E /* UIColor+ODColors.m */; };
 		FAB9DC111BA5EB9200A9FA4E /* ODButton.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB9DC101BA5EB9200A9FA4E /* ODButton.m */; };
 		FAB9DC171BA64D1B00A9FA4E /* ODLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB9DC161BA64D1B00A9FA4E /* ODLoginViewController.m */; };
@@ -45,6 +44,13 @@
 		FAE2378D1BC9C24D001AA4F5 /* ODBoldButton.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE2378C1BC9C24D001AA4F5 /* ODBoldButton.m */; };
 		FAE237941BC9CD04001AA4F5 /* ODSignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE237931BC9CD04001AA4F5 /* ODSignUpViewController.m */; };
 		FAE237981BC9CD2A001AA4F5 /* ODSignUpView.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE237971BC9CD2A001AA4F5 /* ODSignUpView.m */; };
+		FAE2379D1BCA9315001AA4F5 /* ODLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE2379C1BCA9315001AA4F5 /* ODLabel.m */; };
+		FAE237A01BCA936D001AA4F5 /* ODBoldLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE2379F1BCA936D001AA4F5 /* ODBoldLabel.m */; };
+		FAE237A61BCA99A9001AA4F5 /* ODProfileImage.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE237A51BCA99A9001AA4F5 /* ODProfileImage.m */; };
+		FAE237A81BCA9A30001AA4F5 /* kayne.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FAE237A71BCA9A30001AA4F5 /* kayne.jpeg */; };
+		FAE237AC1BCA9B5B001AA4F5 /* ODTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE237AB1BCA9B5B001AA4F5 /* ODTabBarViewController.m */; };
+		FAE237B21BCA9D6F001AA4F5 /* ODProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE237B11BCA9D6F001AA4F5 /* ODProfileViewController.m */; };
+		FAE237B51BCA9E0C001AA4F5 /* ODEditProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE237B41BCA9E0C001AA4F5 /* ODEditProfileViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,8 +84,6 @@
 		FAA486621BA3B0E000992085 /* ODInitialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ODInitialViewController.m; path = Controllers/ODInitialViewController.m; sourceTree = "<group>"; };
 		FAB9DC051BA4B01D00A9FA4E /* ODTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ODTextField.h; path = Components/ODTextField.h; sourceTree = "<group>"; };
 		FAB9DC061BA4B01D00A9FA4E /* ODTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ODTextField.m; path = Components/ODTextField.m; sourceTree = "<group>"; };
-		FAB9DC091BA5DA4E00A9FA4E /* ODUIConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ODUIConstants.h; path = Constants/ODUIConstants.h; sourceTree = "<group>"; };
-		FAB9DC0A1BA5DA4E00A9FA4E /* ODUIConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ODUIConstants.m; path = Constants/ODUIConstants.m; sourceTree = "<group>"; };
 		FAB9DC0C1BA5DD3500A9FA4E /* UIColor+ODColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+ODColors.h"; path = "Constants/UIColor+ODColors.h"; sourceTree = "<group>"; };
 		FAB9DC0D1BA5DD3500A9FA4E /* UIColor+ODColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+ODColors.m"; path = "Constants/UIColor+ODColors.m"; sourceTree = "<group>"; };
 		FAB9DC0F1BA5EB9200A9FA4E /* ODButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ODButton.h; path = Components/ODButton.h; sourceTree = "<group>"; };
@@ -114,6 +118,19 @@
 		FAE237931BC9CD04001AA4F5 /* ODSignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ODSignUpViewController.m; path = "Controllers/Sign Up/ODSignUpViewController.m"; sourceTree = "<group>"; };
 		FAE237961BC9CD2A001AA4F5 /* ODSignUpView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ODSignUpView.h; path = "Views/Sign Up/ODSignUpView.h"; sourceTree = "<group>"; };
 		FAE237971BC9CD2A001AA4F5 /* ODSignUpView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ODSignUpView.m; path = "Views/Sign Up/ODSignUpView.m"; sourceTree = "<group>"; };
+		FAE2379B1BCA9315001AA4F5 /* ODLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ODLabel.h; path = Components/ODLabel.h; sourceTree = "<group>"; };
+		FAE2379C1BCA9315001AA4F5 /* ODLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ODLabel.m; path = Components/ODLabel.m; sourceTree = "<group>"; };
+		FAE2379E1BCA936D001AA4F5 /* ODBoldLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ODBoldLabel.h; path = Components/ODBoldLabel.h; sourceTree = "<group>"; };
+		FAE2379F1BCA936D001AA4F5 /* ODBoldLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ODBoldLabel.m; path = Components/ODBoldLabel.m; sourceTree = "<group>"; };
+		FAE237A41BCA99A9001AA4F5 /* ODProfileImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ODProfileImage.h; path = Components/ODProfileImage.h; sourceTree = "<group>"; };
+		FAE237A51BCA99A9001AA4F5 /* ODProfileImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ODProfileImage.m; path = Components/ODProfileImage.m; sourceTree = "<group>"; };
+		FAE237A71BCA9A30001AA4F5 /* kayne.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kayne.jpeg; sourceTree = "<group>"; };
+		FAE237AA1BCA9B5B001AA4F5 /* ODTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ODTabBarViewController.h; path = Controllers/TabBar/ODTabBarViewController.h; sourceTree = "<group>"; };
+		FAE237AB1BCA9B5B001AA4F5 /* ODTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ODTabBarViewController.m; path = Controllers/TabBar/ODTabBarViewController.m; sourceTree = "<group>"; };
+		FAE237B01BCA9D6F001AA4F5 /* ODProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ODProfileViewController.h; path = Controllers/Profile/Index/ODProfileViewController.h; sourceTree = "<group>"; };
+		FAE237B11BCA9D6F001AA4F5 /* ODProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ODProfileViewController.m; path = Controllers/Profile/Index/ODProfileViewController.m; sourceTree = "<group>"; };
+		FAE237B31BCA9E0C001AA4F5 /* ODEditProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ODEditProfileViewController.h; path = "Controllers/Profile/Edit Profile/ODEditProfileViewController.h"; sourceTree = "<group>"; };
+		FAE237B41BCA9E0C001AA4F5 /* ODEditProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ODEditProfileViewController.m; path = "Controllers/Profile/Edit Profile/ODEditProfileViewController.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,6 +199,7 @@
 				FAA4865C1BA3AFD300992085 /* Models */,
 				FAA4865B1BA3AFC500992085 /* Controllers */,
 				FAA4865A1BA3AFAE00992085 /* Connection */,
+				FAE237A71BCA9A30001AA4F5 /* kayne.jpeg */,
 				FA6332671B8B33610029D46E /* AppDelegate.h */,
 				FA6332681B8B33610029D46E /* AppDelegate.m */,
 				FA63326D1B8B33610029D46E /* Main.storyboard */,
@@ -228,6 +246,8 @@
 		FAA4865B1BA3AFC500992085 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				FAE237AD1BCA9BFA001AA4F5 /* Profile */,
+				FAE237A91BCA9AE1001AA4F5 /* TabBar */,
 				FAE237951BC9CD0A001AA4F5 /* Sign Up */,
 				FAA486611BA3B0E000992085 /* ODInitialViewController.h */,
 				FAA486621BA3B0E000992085 /* ODInitialViewController.m */,
@@ -263,6 +283,12 @@
 				FAB9DC101BA5EB9200A9FA4E /* ODButton.m */,
 				FAE2378B1BC9C24D001AA4F5 /* ODBoldButton.h */,
 				FAE2378C1BC9C24D001AA4F5 /* ODBoldButton.m */,
+				FAE2379B1BCA9315001AA4F5 /* ODLabel.h */,
+				FAE2379C1BCA9315001AA4F5 /* ODLabel.m */,
+				FAE2379E1BCA936D001AA4F5 /* ODBoldLabel.h */,
+				FAE2379F1BCA936D001AA4F5 /* ODBoldLabel.m */,
+				FAE237A41BCA99A9001AA4F5 /* ODProfileImage.h */,
+				FAE237A51BCA99A9001AA4F5 /* ODProfileImage.m */,
 			);
 			name = Components;
 			sourceTree = "<group>";
@@ -270,8 +296,6 @@
 		FAB9DC081BA4B0E200A9FA4E /* Constants */ = {
 			isa = PBXGroup;
 			children = (
-				FAB9DC091BA5DA4E00A9FA4E /* ODUIConstants.h */,
-				FAB9DC0A1BA5DA4E00A9FA4E /* ODUIConstants.m */,
 				FAB9DC0C1BA5DD3500A9FA4E /* UIColor+ODColors.h */,
 				FAB9DC0D1BA5DD3500A9FA4E /* UIColor+ODColors.m */,
 				FAE1B94C1BC487A8000CC65D /* UIFont+ODFonts.h */,
@@ -332,6 +356,42 @@
 				FAE237931BC9CD04001AA4F5 /* ODSignUpViewController.m */,
 			);
 			name = "Sign Up";
+			sourceTree = "<group>";
+		};
+		FAE237A91BCA9AE1001AA4F5 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				FAE237AA1BCA9B5B001AA4F5 /* ODTabBarViewController.h */,
+				FAE237AB1BCA9B5B001AA4F5 /* ODTabBarViewController.m */,
+			);
+			name = TabBar;
+			sourceTree = "<group>";
+		};
+		FAE237AD1BCA9BFA001AA4F5 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				FAE237AF1BCA9C17001AA4F5 /* Index */,
+				FAE237AE1BCA9C06001AA4F5 /* Edit Profile */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
+		FAE237AE1BCA9C06001AA4F5 /* Edit Profile */ = {
+			isa = PBXGroup;
+			children = (
+				FAE237B31BCA9E0C001AA4F5 /* ODEditProfileViewController.h */,
+				FAE237B41BCA9E0C001AA4F5 /* ODEditProfileViewController.m */,
+			);
+			name = "Edit Profile";
+			sourceTree = "<group>";
+		};
+		FAE237AF1BCA9C17001AA4F5 /* Index */ = {
+			isa = PBXGroup;
+			children = (
+				FAE237B01BCA9D6F001AA4F5 /* ODProfileViewController.h */,
+				FAE237B11BCA9D6F001AA4F5 /* ODProfileViewController.m */,
+			);
+			name = Index;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -431,6 +491,7 @@
 				FAE1B9731BC489FB000CC65D /* Futura LT Heavy Oblique.ttf in Resources */,
 				FAE1B96A1BC489FB000CC65D /* Futura LT Condensed Bold.ttf in Resources */,
 				FAE1B9761BC489FB000CC65D /* Futura LT Light.ttf in Resources */,
+				FAE237A81BCA9A30001AA4F5 /* kayne.jpeg in Resources */,
 				FAE1B9651BC489FB000CC65D /* Futura LT Bold Oblique.ttf in Resources */,
 				FAE1B9771BC489FB000CC65D /* Futura LT Medium Oblique.ttf in Resources */,
 				FAE1B9721BC489FB000CC65D /* Futura LT Extra Bold.ttf in Resources */,
@@ -490,17 +551,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAE237B51BCA9E0C001AA4F5 /* ODEditProfileViewController.m in Sources */,
 				FAA486631BA3B0E000992085 /* ODInitialViewController.m in Sources */,
 				FAE237981BC9CD2A001AA4F5 /* ODSignUpView.m in Sources */,
+				FAE237A61BCA99A9001AA4F5 /* ODProfileImage.m in Sources */,
+				FAE237A01BCA936D001AA4F5 /* ODBoldLabel.m in Sources */,
 				FAE2378D1BC9C24D001AA4F5 /* ODBoldButton.m in Sources */,
+				FAE2379D1BCA9315001AA4F5 /* ODLabel.m in Sources */,
+				FAE237AC1BCA9B5B001AA4F5 /* ODTabBarViewController.m in Sources */,
 				FA6332691B8B33610029D46E /* AppDelegate.m in Sources */,
 				FAA486601BA3B0C400992085 /* ODInitialView.m in Sources */,
 				FA6332661B8B33610029D46E /* main.m in Sources */,
 				FAE237941BC9CD04001AA4F5 /* ODSignUpViewController.m in Sources */,
 				FAE1B94E1BC487A8000CC65D /* UIFont+ODFonts.m in Sources */,
 				FAB9DC111BA5EB9200A9FA4E /* ODButton.m in Sources */,
-				FAB9DC0B1BA5DA4E00A9FA4E /* ODUIConstants.m in Sources */,
 				FAB9DC171BA64D1B00A9FA4E /* ODLoginViewController.m in Sources */,
+				FAE237B21BCA9D6F001AA4F5 /* ODProfileViewController.m in Sources */,
 				FAB9DC071BA4B01D00A9FA4E /* ODTextField.m in Sources */,
 				FAB9DC0E1BA5DD3500A9FA4E /* UIColor+ODColors.m in Sources */,
 			);
