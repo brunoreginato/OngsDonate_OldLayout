@@ -21,6 +21,30 @@
 		FAB9DC0E1BA5DD3500A9FA4E /* UIColor+ODColors.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB9DC0D1BA5DD3500A9FA4E /* UIColor+ODColors.m */; };
 		FAB9DC111BA5EB9200A9FA4E /* ODButton.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB9DC101BA5EB9200A9FA4E /* ODButton.m */; };
 		FAB9DC171BA64D1B00A9FA4E /* ODLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB9DC161BA64D1B00A9FA4E /* ODLoginViewController.m */; };
+		FAE1B94E1BC487A8000CC65D /* UIFont+ODFonts.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE1B94D1BC487A8000CC65D /* UIFont+ODFonts.m */; };
+		FAE1B9651BC489FB000CC65D /* Futura LT Bold Oblique.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAE1B9511BC489FB000CC65D /* Futura LT Bold Oblique.ttf */; };
+		FAE1B9661BC489FB000CC65D /* Futura LT Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAE1B9521BC489FB000CC65D /* Futura LT Bold.ttf */; };
+		FAE1B9671BC489FB000CC65D /* Futura LT Book Oblique.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAE1B9531BC489FB000CC65D /* Futura LT Book Oblique.ttf */; };
+		FAE1B9681BC489FB000CC65D /* Futura LT Book.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAE1B9541BC489FB000CC65D /* Futura LT Book.ttf */; };
+		FAE1B9691BC489FB000CC65D /* Futura LT Condensed Bold Oblique.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAE1B9551BC489FB000CC65D /* Futura LT Condensed Bold Oblique.ttf */; };
+		FAE1B96A1BC489FB000CC65D /* Futura LT Condensed Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAE1B9561BC489FB000CC65D /* Futura LT Condensed Bold.ttf */; };
+		FAE1B96B1BC489FB000CC65D /* Futura LT Condensed Extra Bold Oblique.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAE1B9571BC489FB000CC65D /* Futura LT Condensed Extra Bold Oblique.ttf */; };
+		FAE1B96C1BC489FB000CC65D /* Futura LT Condensed Extra Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAE1B9581BC489FB000CC65D /* Futura LT Condensed Extra Bold.ttf */; };
+		FAE1B96D1BC489FB000CC65D /* Futura LT Condensed Light Oblique.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAE1B9591BC489FB000CC65D /* Futura LT Condensed Light Oblique.ttf */; };
+		FAE1B96E1BC489FB000CC65D /* Futura LT Condensed Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAE1B95A1BC489FB000CC65D /* Futura LT Condensed Light.ttf */; };
+		FAE1B96F1BC489FB000CC65D /* Futura LT Condensed Medium Oblique.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAE1B95B1BC489FB000CC65D /* Futura LT Condensed Medium Oblique.ttf */; };
+		FAE1B9701BC489FB000CC65D /* Futura LT Condensed Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAE1B95C1BC489FB000CC65D /* Futura LT Condensed Medium.ttf */; };
+		FAE1B9711BC489FB000CC65D /* Futura LT Extra Bold Oblique.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAE1B95D1BC489FB000CC65D /* Futura LT Extra Bold Oblique.ttf */; };
+		FAE1B9721BC489FB000CC65D /* Futura LT Extra Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAE1B95E1BC489FB000CC65D /* Futura LT Extra Bold.ttf */; };
+		FAE1B9731BC489FB000CC65D /* Futura LT Heavy Oblique.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAE1B95F1BC489FB000CC65D /* Futura LT Heavy Oblique.ttf */; };
+		FAE1B9741BC489FB000CC65D /* Futura LT Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAE1B9601BC489FB000CC65D /* Futura LT Heavy.ttf */; };
+		FAE1B9751BC489FB000CC65D /* Futura LT Light Oblique.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAE1B9611BC489FB000CC65D /* Futura LT Light Oblique.ttf */; };
+		FAE1B9761BC489FB000CC65D /* Futura LT Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAE1B9621BC489FB000CC65D /* Futura LT Light.ttf */; };
+		FAE1B9771BC489FB000CC65D /* Futura LT Medium Oblique.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAE1B9631BC489FB000CC65D /* Futura LT Medium Oblique.ttf */; };
+		FAE1B9781BC489FB000CC65D /* Futura LT Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAE1B9641BC489FB000CC65D /* Futura LT Medium.ttf */; };
+		FAE2378D1BC9C24D001AA4F5 /* ODBoldButton.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE2378C1BC9C24D001AA4F5 /* ODBoldButton.m */; };
+		FAE237941BC9CD04001AA4F5 /* ODSignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE237931BC9CD04001AA4F5 /* ODSignUpViewController.m */; };
+		FAE237981BC9CD2A001AA4F5 /* ODSignUpView.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE237971BC9CD2A001AA4F5 /* ODSignUpView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +86,34 @@
 		FAB9DC101BA5EB9200A9FA4E /* ODButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ODButton.m; path = Components/ODButton.m; sourceTree = "<group>"; };
 		FAB9DC151BA64D1B00A9FA4E /* ODLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ODLoginViewController.h; path = Controllers/ODLoginViewController.h; sourceTree = "<group>"; };
 		FAB9DC161BA64D1B00A9FA4E /* ODLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ODLoginViewController.m; path = Controllers/ODLoginViewController.m; sourceTree = "<group>"; };
+		FAE1B94C1BC487A8000CC65D /* UIFont+ODFonts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIFont+ODFonts.h"; path = "Constants/UIFont+ODFonts.h"; sourceTree = "<group>"; };
+		FAE1B94D1BC487A8000CC65D /* UIFont+ODFonts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIFont+ODFonts.m"; path = "Constants/UIFont+ODFonts.m"; sourceTree = "<group>"; };
+		FAE1B9511BC489FB000CC65D /* Futura LT Bold Oblique.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Futura LT Bold Oblique.ttf"; sourceTree = "<group>"; };
+		FAE1B9521BC489FB000CC65D /* Futura LT Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Futura LT Bold.ttf"; sourceTree = "<group>"; };
+		FAE1B9531BC489FB000CC65D /* Futura LT Book Oblique.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Futura LT Book Oblique.ttf"; sourceTree = "<group>"; };
+		FAE1B9541BC489FB000CC65D /* Futura LT Book.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Futura LT Book.ttf"; sourceTree = "<group>"; };
+		FAE1B9551BC489FB000CC65D /* Futura LT Condensed Bold Oblique.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Futura LT Condensed Bold Oblique.ttf"; sourceTree = "<group>"; };
+		FAE1B9561BC489FB000CC65D /* Futura LT Condensed Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Futura LT Condensed Bold.ttf"; sourceTree = "<group>"; };
+		FAE1B9571BC489FB000CC65D /* Futura LT Condensed Extra Bold Oblique.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Futura LT Condensed Extra Bold Oblique.ttf"; sourceTree = "<group>"; };
+		FAE1B9581BC489FB000CC65D /* Futura LT Condensed Extra Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Futura LT Condensed Extra Bold.ttf"; sourceTree = "<group>"; };
+		FAE1B9591BC489FB000CC65D /* Futura LT Condensed Light Oblique.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Futura LT Condensed Light Oblique.ttf"; sourceTree = "<group>"; };
+		FAE1B95A1BC489FB000CC65D /* Futura LT Condensed Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Futura LT Condensed Light.ttf"; sourceTree = "<group>"; };
+		FAE1B95B1BC489FB000CC65D /* Futura LT Condensed Medium Oblique.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Futura LT Condensed Medium Oblique.ttf"; sourceTree = "<group>"; };
+		FAE1B95C1BC489FB000CC65D /* Futura LT Condensed Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Futura LT Condensed Medium.ttf"; sourceTree = "<group>"; };
+		FAE1B95D1BC489FB000CC65D /* Futura LT Extra Bold Oblique.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Futura LT Extra Bold Oblique.ttf"; sourceTree = "<group>"; };
+		FAE1B95E1BC489FB000CC65D /* Futura LT Extra Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Futura LT Extra Bold.ttf"; sourceTree = "<group>"; };
+		FAE1B95F1BC489FB000CC65D /* Futura LT Heavy Oblique.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Futura LT Heavy Oblique.ttf"; sourceTree = "<group>"; };
+		FAE1B9601BC489FB000CC65D /* Futura LT Heavy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Futura LT Heavy.ttf"; sourceTree = "<group>"; };
+		FAE1B9611BC489FB000CC65D /* Futura LT Light Oblique.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Futura LT Light Oblique.ttf"; sourceTree = "<group>"; };
+		FAE1B9621BC489FB000CC65D /* Futura LT Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Futura LT Light.ttf"; sourceTree = "<group>"; };
+		FAE1B9631BC489FB000CC65D /* Futura LT Medium Oblique.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Futura LT Medium Oblique.ttf"; sourceTree = "<group>"; };
+		FAE1B9641BC489FB000CC65D /* Futura LT Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Futura LT Medium.ttf"; sourceTree = "<group>"; };
+		FAE2378B1BC9C24D001AA4F5 /* ODBoldButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ODBoldButton.h; path = Components/ODBoldButton.h; sourceTree = "<group>"; };
+		FAE2378C1BC9C24D001AA4F5 /* ODBoldButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ODBoldButton.m; path = Components/ODBoldButton.m; sourceTree = "<group>"; };
+		FAE237921BC9CD04001AA4F5 /* ODSignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ODSignUpViewController.h; path = "Controllers/Sign Up/ODSignUpViewController.h"; sourceTree = "<group>"; };
+		FAE237931BC9CD04001AA4F5 /* ODSignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ODSignUpViewController.m; path = "Controllers/Sign Up/ODSignUpViewController.m"; sourceTree = "<group>"; };
+		FAE237961BC9CD2A001AA4F5 /* ODSignUpView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ODSignUpView.h; path = "Views/Sign Up/ODSignUpView.h"; sourceTree = "<group>"; };
+		FAE237971BC9CD2A001AA4F5 /* ODSignUpView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ODSignUpView.m; path = "Views/Sign Up/ODSignUpView.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +175,7 @@
 		FA6332621B8B33610029D46E /* OngsDonate */ = {
 			isa = PBXGroup;
 			children = (
+				FAE1B94F1BC48995000CC65D /* Fonts */,
 				FAB9DC081BA4B0E200A9FA4E /* Constants */,
 				FAB9DC041BA4AFCD00A9FA4E /* Components */,
 				FAA4865D1BA3AFDA00992085 /* Views */,
@@ -175,6 +228,7 @@
 		FAA4865B1BA3AFC500992085 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				FAE237951BC9CD0A001AA4F5 /* Sign Up */,
 				FAA486611BA3B0E000992085 /* ODInitialViewController.h */,
 				FAA486621BA3B0E000992085 /* ODInitialViewController.m */,
 				FAB9DC151BA64D1B00A9FA4E /* ODLoginViewController.h */,
@@ -193,6 +247,7 @@
 		FAA4865D1BA3AFDA00992085 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				FAE2378E1BC9CBF2001AA4F5 /* Sign Up */,
 				FAA4865E1BA3B0C400992085 /* ODInitialView.h */,
 				FAA4865F1BA3B0C400992085 /* ODInitialView.m */,
 			);
@@ -206,6 +261,8 @@
 				FAB9DC061BA4B01D00A9FA4E /* ODTextField.m */,
 				FAB9DC0F1BA5EB9200A9FA4E /* ODButton.h */,
 				FAB9DC101BA5EB9200A9FA4E /* ODButton.m */,
+				FAE2378B1BC9C24D001AA4F5 /* ODBoldButton.h */,
+				FAE2378C1BC9C24D001AA4F5 /* ODBoldButton.m */,
 			);
 			name = Components;
 			sourceTree = "<group>";
@@ -217,8 +274,64 @@
 				FAB9DC0A1BA5DA4E00A9FA4E /* ODUIConstants.m */,
 				FAB9DC0C1BA5DD3500A9FA4E /* UIColor+ODColors.h */,
 				FAB9DC0D1BA5DD3500A9FA4E /* UIColor+ODColors.m */,
+				FAE1B94C1BC487A8000CC65D /* UIFont+ODFonts.h */,
+				FAE1B94D1BC487A8000CC65D /* UIFont+ODFonts.m */,
 			);
 			name = Constants;
+			sourceTree = "<group>";
+		};
+		FAE1B94F1BC48995000CC65D /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				FAE1B9501BC489FB000CC65D /* Futura */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		FAE1B9501BC489FB000CC65D /* Futura */ = {
+			isa = PBXGroup;
+			children = (
+				FAE1B9511BC489FB000CC65D /* Futura LT Bold Oblique.ttf */,
+				FAE1B9521BC489FB000CC65D /* Futura LT Bold.ttf */,
+				FAE1B9531BC489FB000CC65D /* Futura LT Book Oblique.ttf */,
+				FAE1B9541BC489FB000CC65D /* Futura LT Book.ttf */,
+				FAE1B9551BC489FB000CC65D /* Futura LT Condensed Bold Oblique.ttf */,
+				FAE1B9561BC489FB000CC65D /* Futura LT Condensed Bold.ttf */,
+				FAE1B9571BC489FB000CC65D /* Futura LT Condensed Extra Bold Oblique.ttf */,
+				FAE1B9581BC489FB000CC65D /* Futura LT Condensed Extra Bold.ttf */,
+				FAE1B9591BC489FB000CC65D /* Futura LT Condensed Light Oblique.ttf */,
+				FAE1B95A1BC489FB000CC65D /* Futura LT Condensed Light.ttf */,
+				FAE1B95B1BC489FB000CC65D /* Futura LT Condensed Medium Oblique.ttf */,
+				FAE1B95C1BC489FB000CC65D /* Futura LT Condensed Medium.ttf */,
+				FAE1B95D1BC489FB000CC65D /* Futura LT Extra Bold Oblique.ttf */,
+				FAE1B95E1BC489FB000CC65D /* Futura LT Extra Bold.ttf */,
+				FAE1B95F1BC489FB000CC65D /* Futura LT Heavy Oblique.ttf */,
+				FAE1B9601BC489FB000CC65D /* Futura LT Heavy.ttf */,
+				FAE1B9611BC489FB000CC65D /* Futura LT Light Oblique.ttf */,
+				FAE1B9621BC489FB000CC65D /* Futura LT Light.ttf */,
+				FAE1B9631BC489FB000CC65D /* Futura LT Medium Oblique.ttf */,
+				FAE1B9641BC489FB000CC65D /* Futura LT Medium.ttf */,
+			);
+			name = Futura;
+			path = Fonts/Futura;
+			sourceTree = "<group>";
+		};
+		FAE2378E1BC9CBF2001AA4F5 /* Sign Up */ = {
+			isa = PBXGroup;
+			children = (
+				FAE237961BC9CD2A001AA4F5 /* ODSignUpView.h */,
+				FAE237971BC9CD2A001AA4F5 /* ODSignUpView.m */,
+			);
+			name = "Sign Up";
+			sourceTree = "<group>";
+		};
+		FAE237951BC9CD0A001AA4F5 /* Sign Up */ = {
+			isa = PBXGroup;
+			children = (
+				FAE237921BC9CD04001AA4F5 /* ODSignUpViewController.h */,
+				FAE237931BC9CD04001AA4F5 /* ODSignUpViewController.m */,
+			);
+			name = "Sign Up";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -304,9 +417,29 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAE1B9741BC489FB000CC65D /* Futura LT Heavy.ttf in Resources */,
+				FAE1B96D1BC489FB000CC65D /* Futura LT Condensed Light Oblique.ttf in Resources */,
 				FA63326F1B8B33610029D46E /* Main.storyboard in Resources */,
+				FAE1B9711BC489FB000CC65D /* Futura LT Extra Bold Oblique.ttf in Resources */,
 				FA6332741B8B33610029D46E /* LaunchScreen.xib in Resources */,
 				FA6332711B8B33610029D46E /* Images.xcassets in Resources */,
+				FAE1B96E1BC489FB000CC65D /* Futura LT Condensed Light.ttf in Resources */,
+				FAE1B9661BC489FB000CC65D /* Futura LT Bold.ttf in Resources */,
+				FAE1B96B1BC489FB000CC65D /* Futura LT Condensed Extra Bold Oblique.ttf in Resources */,
+				FAE1B9691BC489FB000CC65D /* Futura LT Condensed Bold Oblique.ttf in Resources */,
+				FAE1B96C1BC489FB000CC65D /* Futura LT Condensed Extra Bold.ttf in Resources */,
+				FAE1B9731BC489FB000CC65D /* Futura LT Heavy Oblique.ttf in Resources */,
+				FAE1B96A1BC489FB000CC65D /* Futura LT Condensed Bold.ttf in Resources */,
+				FAE1B9761BC489FB000CC65D /* Futura LT Light.ttf in Resources */,
+				FAE1B9651BC489FB000CC65D /* Futura LT Bold Oblique.ttf in Resources */,
+				FAE1B9771BC489FB000CC65D /* Futura LT Medium Oblique.ttf in Resources */,
+				FAE1B9721BC489FB000CC65D /* Futura LT Extra Bold.ttf in Resources */,
+				FAE1B9751BC489FB000CC65D /* Futura LT Light Oblique.ttf in Resources */,
+				FAE1B9671BC489FB000CC65D /* Futura LT Book Oblique.ttf in Resources */,
+				FAE1B9781BC489FB000CC65D /* Futura LT Medium.ttf in Resources */,
+				FAE1B9701BC489FB000CC65D /* Futura LT Condensed Medium.ttf in Resources */,
+				FAE1B96F1BC489FB000CC65D /* Futura LT Condensed Medium Oblique.ttf in Resources */,
+				FAE1B9681BC489FB000CC65D /* Futura LT Book.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,9 +491,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAA486631BA3B0E000992085 /* ODInitialViewController.m in Sources */,
+				FAE237981BC9CD2A001AA4F5 /* ODSignUpView.m in Sources */,
+				FAE2378D1BC9C24D001AA4F5 /* ODBoldButton.m in Sources */,
 				FA6332691B8B33610029D46E /* AppDelegate.m in Sources */,
 				FAA486601BA3B0C400992085 /* ODInitialView.m in Sources */,
 				FA6332661B8B33610029D46E /* main.m in Sources */,
+				FAE237941BC9CD04001AA4F5 /* ODSignUpViewController.m in Sources */,
+				FAE1B94E1BC487A8000CC65D /* UIFont+ODFonts.m in Sources */,
 				FAB9DC111BA5EB9200A9FA4E /* ODButton.m in Sources */,
 				FAB9DC0B1BA5DA4E00A9FA4E /* ODUIConstants.m in Sources */,
 				FAB9DC171BA64D1B00A9FA4E /* ODLoginViewController.m in Sources */,
