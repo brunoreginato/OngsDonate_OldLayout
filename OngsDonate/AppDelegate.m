@@ -6,6 +6,7 @@
 //  Copyright (c) 2015 ong. All rights reserved.
 //
 
+#import "ODUIConstants.h"
 #import "AppDelegate.h"
 
 @interface AppDelegate ()
@@ -18,8 +19,17 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
-//    [[UIBarButtonItem appearance] setBackButtonBackgroundImage:[[UIImage imageNamed:@"back-red"] resizableImageWithCapInsets:UIEdgeInsetsMake(0, 12.0, 0, 12.0)] forState:UIControlStateNormal barMetrics:UIBarMetricsDefault];
-//    
+//    for (NSString* family in [UIFont familyNames])
+//    {
+//        NSLog(@"%@", family);
+//        
+//        for (NSString* name in [UIFont fontNamesForFamilyName: family])
+//        {
+//            NSLog(@"  %@", name);
+//        }
+//    }
+    [self setupNavigationBar];
+    
     return YES;
 }
 
@@ -43,6 +53,22 @@
 
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+#pragma mark - Navigation Bar Customization
+-(void)setupNavigationBar {
+    //changing back button image
+    UIImage *backButtonHomeImage = [[UIImage imageNamed:@"back-red"] resizableImageWithCapInsets:UIEdgeInsetsMake(0, 32, 0, 0)];
+    [[UIBarButtonItem appearance] setBackButtonBackgroundImage:backButtonHomeImage  forState:UIControlStateNormal barMetrics:UIBarMetricsDefault];
+    
+    //removing back button text
+    [[UIBarButtonItem appearance] setBackButtonTitlePositionAdjustment:UIOffsetMake(0, -60)
+                                                         forBarMetrics:UIBarMetricsDefault];
+    
+    //title style
+    NSDictionary * titleAttributes = @{NSFontAttributeName:[UIFont ODBoldButtonFont],
+                                       NSForegroundColorAttributeName:[UIColor ODRedColor]};
+    [[UINavigationBar appearance] setTitleTextAttributes:titleAttributes];
 }
 
 @end
