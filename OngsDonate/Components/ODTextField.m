@@ -25,26 +25,32 @@
 {
     self = [super initWithFrame:frame];
     if (self) {
-        // Initialization code
+        
     }
     return self;
 }
 
 -(void)setup {
-    [self setFont: [UIFont fontWithName: kFontFamily size: kTextFieldFontSize]];
+    [self setFont: [UIFont ODTextFieldFont]];
     [self setTextColor: [UIColor ODRedColor]];
     
-//    CALayer *bottomBorder = [CALayer layer];
-//    
-//    CGFloat y = 10.0f;
-//    CGFloat w = 200.0f;
-//    
-//    bottomBorder.frame = CGRectMake(0.0f,y,w,1.0f);
-//    bottomBorder.backgroundColor = [UIColor ODRedColor].CGColor;
-//    
-//    [self.layer addSublayer:bottomBorder];
-    
+    [self setupBorder];
     [self setupPlaceholder];
+}
+
+-(void) setupBorder {
+    [self setBorderStyle:UITextBorderStyleNone];
+    
+    CALayer *bottomBorder = [CALayer layer];
+    
+    CGFloat y = self.frame.size.height - 1.0f;
+    CGFloat w = self.frame.size.width;
+    
+    bottomBorder.frame = CGRectMake(0.0f,y,w,1.0f);
+    bottomBorder.backgroundColor = [UIColor ODRedColor].CGColor;
+    
+    [self.layer addSublayer:bottomBorder];
+
 }
 
 -(void)setupPlaceholder {

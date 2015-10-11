@@ -1,16 +1,14 @@
 //
-//  ODButton.m
+//  ODBoldButton.m
 //  OngsDonate
 //
-//  Created by Bruno Isola Reginato on 9/13/15.
+//  Created by Bruno Isola Reginato on 10/10/15.
 //  Copyright (c) 2015 ong. All rights reserved.
 //
-
-#import "ODButton.h"
 #import "ODUIConstants.h"
+#import "ODBoldButton.h"
 
-@implementation ODButton
-
+@implementation ODBoldButton
 
 -(void)awakeFromNib{
     [super awakeFromNib];
@@ -29,8 +27,7 @@
 
 -(void)setup {
     [self setTitleColor:[UIColor ODRedColor] forState:UIControlStateNormal];
-    [[self titleLabel] setFont:[UIFont ODButtonFont]];
+    [[self titleLabel] setFont: [UIFont ODBoldButtonFont]];
 }
-
 
 @end

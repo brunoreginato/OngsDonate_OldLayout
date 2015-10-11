@@ -11,6 +11,7 @@
 @implementation UIColor (ODColors)
 
 +(UIColor *)ODRedColor {
-    return [UIColor colorWithRed:222.0/255.0 green:45.0/255.0 blue:45.0/255.0 alpha:1.0f];}
+    return [UIColor colorWithRed:222.0/255.0 green:45.0/255.0 blue:45.0/255.0 alpha:1.0f];
+}
 
 @end

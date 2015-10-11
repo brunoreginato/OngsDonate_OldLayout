@@ -8,10 +8,13 @@
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
 #import "UIColor+ODColors.h"
+#import "UIFont+ODFonts.h"
 
 @interface ODUIConstants : NSObject
 
-extern NSString *const kFontFamily;
+extern NSString *const kFontFamilyButton;
+extern NSString *const kFontFamilyBoldButton;
+extern NSString *const kFontFamilyTextField;
 extern NSInteger const kButtonFontSize;
 extern NSInteger const kTextFieldFontSize;
 

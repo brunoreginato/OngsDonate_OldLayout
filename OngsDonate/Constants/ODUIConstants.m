@@ -10,8 +10,10 @@
 
 @implementation ODUIConstants
 
-NSString *const kFontFamily = @"Futura";
+NSString *const kFontFamilyButton = @"FuturaLT-Light";
+NSString *const kFontFamilyBoldButton = @"FuturaLT-Book";
+NSString *const kFontFamilyTextField = @"FuturaLT-Light";
 NSInteger const kTextFieldFontSize = 16;
-NSInteger const kButtonFontSize = 21;
+NSInteger const kButtonFontSize = 16;
 
 @end
