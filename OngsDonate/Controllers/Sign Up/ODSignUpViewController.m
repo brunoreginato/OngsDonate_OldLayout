@@ -1,25 +1,26 @@
 //
-//  ODInitialViewController.m
+//  ODSignUpViewController.m
 //  OngsDonate
 //
-//  Created by Bruno Isola Reginato on 9/11/15.
+//  Created by Bruno Isola Reginato on 10/10/15.
 //  Copyright (c) 2015 ong. All rights reserved.
 //
 
-#import "ODInitialViewController.h"
+#import "ODSignUpViewController.h"
 
-@interface ODInitialViewController ()
+@interface ODSignUpViewController ()
 
 @end
 
-@implementation ODInitialViewController
+@implementation ODSignUpViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    // Do any additional setup after loading the view.
 }
 
 -(void)viewWillAppear:(BOOL)animated {
-    [[self navigationController] setNavigationBarHidden:YES animated:YES];
+    [[self navigationController] setNavigationBarHidden:NO animated:NO];
 }
 
 - (void)didReceiveMemoryWarning {
