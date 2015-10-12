@@ -51,6 +51,9 @@
 		FAE237AC1BCA9B5B001AA4F5 /* ODTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE237AB1BCA9B5B001AA4F5 /* ODTabBarViewController.m */; };
 		FAE237B21BCA9D6F001AA4F5 /* ODProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE237B11BCA9D6F001AA4F5 /* ODProfileViewController.m */; };
 		FAE237B51BCA9E0C001AA4F5 /* ODEditProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE237B41BCA9E0C001AA4F5 /* ODEditProfileViewController.m */; };
+		FAE237B81BCBE7FD001AA4F5 /* ODMyHistoryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE237B71BCBE7FD001AA4F5 /* ODMyHistoryTableViewController.m */; };
+		FAE237BB1BCBF602001AA4F5 /* photo.png in Resources */ = {isa = PBXBuildFile; fileRef = FAE237BA1BCBF602001AA4F5 /* photo.png */; };
+		FAE237BF1BCBF9CB001AA4F5 /* ODHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE237BE1BCBF9CB001AA4F5 /* ODHomeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -131,6 +134,11 @@
 		FAE237B11BCA9D6F001AA4F5 /* ODProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ODProfileViewController.m; path = Controllers/Profile/Index/ODProfileViewController.m; sourceTree = "<group>"; };
 		FAE237B31BCA9E0C001AA4F5 /* ODEditProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ODEditProfileViewController.h; path = "Controllers/Profile/Edit Profile/ODEditProfileViewController.h"; sourceTree = "<group>"; };
 		FAE237B41BCA9E0C001AA4F5 /* ODEditProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ODEditProfileViewController.m; path = "Controllers/Profile/Edit Profile/ODEditProfileViewController.m"; sourceTree = "<group>"; };
+		FAE237B61BCBE7FD001AA4F5 /* ODMyHistoryTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ODMyHistoryTableViewController.h; path = "Controllers/My History/ODMyHistoryTableViewController.h"; sourceTree = "<group>"; };
+		FAE237B71BCBE7FD001AA4F5 /* ODMyHistoryTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ODMyHistoryTableViewController.m; path = "Controllers/My History/ODMyHistoryTableViewController.m"; sourceTree = "<group>"; };
+		FAE237BA1BCBF602001AA4F5 /* photo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo.png; sourceTree = "<group>"; };
+		FAE237BD1BCBF9CB001AA4F5 /* ODHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ODHomeViewController.h; path = Controllers/Home/ODHomeViewController.h; sourceTree = "<group>"; };
+		FAE237BE1BCBF9CB001AA4F5 /* ODHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ODHomeViewController.m; path = Controllers/Home/ODHomeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -200,6 +208,7 @@
 				FAA4865B1BA3AFC500992085 /* Controllers */,
 				FAA4865A1BA3AFAE00992085 /* Connection */,
 				FAE237A71BCA9A30001AA4F5 /* kayne.jpeg */,
+				FAE237BA1BCBF602001AA4F5 /* photo.png */,
 				FA6332671B8B33610029D46E /* AppDelegate.h */,
 				FA6332681B8B33610029D46E /* AppDelegate.m */,
 				FA63326D1B8B33610029D46E /* Main.storyboard */,
@@ -246,6 +255,8 @@
 		FAA4865B1BA3AFC500992085 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				FAE237BC1BCBF967001AA4F5 /* Home */,
+				FAE237B91BCBE807001AA4F5 /* My History */,
 				FAE237AD1BCA9BFA001AA4F5 /* Profile */,
 				FAE237A91BCA9AE1001AA4F5 /* TabBar */,
 				FAE237951BC9CD0A001AA4F5 /* Sign Up */,
@@ -394,6 +405,24 @@
 			name = Index;
 			sourceTree = "<group>";
 		};
+		FAE237B91BCBE807001AA4F5 /* My History */ = {
+			isa = PBXGroup;
+			children = (
+				FAE237B61BCBE7FD001AA4F5 /* ODMyHistoryTableViewController.h */,
+				FAE237B71BCBE7FD001AA4F5 /* ODMyHistoryTableViewController.m */,
+			);
+			name = "My History";
+			sourceTree = "<group>";
+		};
+		FAE237BC1BCBF967001AA4F5 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				FAE237BD1BCBF9CB001AA4F5 /* ODHomeViewController.h */,
+				FAE237BE1BCBF9CB001AA4F5 /* ODHomeViewController.m */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -494,6 +523,7 @@
 				FAE237A81BCA9A30001AA4F5 /* kayne.jpeg in Resources */,
 				FAE1B9651BC489FB000CC65D /* Futura LT Bold Oblique.ttf in Resources */,
 				FAE1B9771BC489FB000CC65D /* Futura LT Medium Oblique.ttf in Resources */,
+				FAE237BB1BCBF602001AA4F5 /* photo.png in Resources */,
 				FAE1B9721BC489FB000CC65D /* Futura LT Extra Bold.ttf in Resources */,
 				FAE1B9751BC489FB000CC65D /* Futura LT Light Oblique.ttf in Resources */,
 				FAE1B9671BC489FB000CC65D /* Futura LT Book Oblique.ttf in Resources */,
@@ -551,11 +581,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAE237BF1BCBF9CB001AA4F5 /* ODHomeViewController.m in Sources */,
 				FAE237B51BCA9E0C001AA4F5 /* ODEditProfileViewController.m in Sources */,
 				FAA486631BA3B0E000992085 /* ODInitialViewController.m in Sources */,
 				FAE237981BC9CD2A001AA4F5 /* ODSignUpView.m in Sources */,
 				FAE237A61BCA99A9001AA4F5 /* ODProfileImage.m in Sources */,
 				FAE237A01BCA936D001AA4F5 /* ODBoldLabel.m in Sources */,
+				FAE237B81BCBE7FD001AA4F5 /* ODMyHistoryTableViewController.m in Sources */,
 				FAE2378D1BC9C24D001AA4F5 /* ODBoldButton.m in Sources */,
 				FAE2379D1BCA9315001AA4F5 /* ODLabel.m in Sources */,
 				FAE237AC1BCA9B5B001AA4F5 /* ODTabBarViewController.m in Sources */,
