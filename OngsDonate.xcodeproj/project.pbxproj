@@ -54,6 +54,8 @@
 		FAE237B81BCBE7FD001AA4F5 /* ODMyHistoryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE237B71BCBE7FD001AA4F5 /* ODMyHistoryTableViewController.m */; };
 		FAE237BB1BCBF602001AA4F5 /* photo.png in Resources */ = {isa = PBXBuildFile; fileRef = FAE237BA1BCBF602001AA4F5 /* photo.png */; };
 		FAE237BF1BCBF9CB001AA4F5 /* ODHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE237BE1BCBF9CB001AA4F5 /* ODHomeViewController.m */; };
+		FAE237C31BCC61E9001AA4F5 /* ODMyOngsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE237C21BCC61E9001AA4F5 /* ODMyOngsTableViewController.m */; };
+		FAE237C71BCC6457001AA4F5 /* ODAddOngViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE237C61BCC6457001AA4F5 /* ODAddOngViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -139,6 +141,10 @@
 		FAE237BA1BCBF602001AA4F5 /* photo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo.png; sourceTree = "<group>"; };
 		FAE237BD1BCBF9CB001AA4F5 /* ODHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ODHomeViewController.h; path = Controllers/Home/ODHomeViewController.h; sourceTree = "<group>"; };
 		FAE237BE1BCBF9CB001AA4F5 /* ODHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ODHomeViewController.m; path = Controllers/Home/ODHomeViewController.m; sourceTree = "<group>"; };
+		FAE237C11BCC61E9001AA4F5 /* ODMyOngsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ODMyOngsTableViewController.h; path = "Controllers/My Ongs/ODMyOngsTableViewController.h"; sourceTree = "<group>"; };
+		FAE237C21BCC61E9001AA4F5 /* ODMyOngsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ODMyOngsTableViewController.m; path = "Controllers/My Ongs/ODMyOngsTableViewController.m"; sourceTree = "<group>"; };
+		FAE237C51BCC6457001AA4F5 /* ODAddOngViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ODAddOngViewController.h; path = "Controllers/Add Ong/ODAddOngViewController.h"; sourceTree = "<group>"; };
+		FAE237C61BCC6457001AA4F5 /* ODAddOngViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ODAddOngViewController.m; path = "Controllers/Add Ong/ODAddOngViewController.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -255,6 +261,8 @@
 		FAA4865B1BA3AFC500992085 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				FAE237C41BCC641C001AA4F5 /* Add Ong */,
+				FAE237C01BCC61B9001AA4F5 /* My Ongs */,
 				FAE237BC1BCBF967001AA4F5 /* Home */,
 				FAE237B91BCBE807001AA4F5 /* My History */,
 				FAE237AD1BCA9BFA001AA4F5 /* Profile */,
@@ -421,6 +429,24 @@
 				FAE237BE1BCBF9CB001AA4F5 /* ODHomeViewController.m */,
 			);
 			name = Home;
+			sourceTree = "<group>";
+		};
+		FAE237C01BCC61B9001AA4F5 /* My Ongs */ = {
+			isa = PBXGroup;
+			children = (
+				FAE237C11BCC61E9001AA4F5 /* ODMyOngsTableViewController.h */,
+				FAE237C21BCC61E9001AA4F5 /* ODMyOngsTableViewController.m */,
+			);
+			name = "My Ongs";
+			sourceTree = "<group>";
+		};
+		FAE237C41BCC641C001AA4F5 /* Add Ong */ = {
+			isa = PBXGroup;
+			children = (
+				FAE237C51BCC6457001AA4F5 /* ODAddOngViewController.h */,
+				FAE237C61BCC6457001AA4F5 /* ODAddOngViewController.m */,
+			);
+			name = "Add Ong";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -592,8 +618,10 @@
 				FAE2379D1BCA9315001AA4F5 /* ODLabel.m in Sources */,
 				FAE237AC1BCA9B5B001AA4F5 /* ODTabBarViewController.m in Sources */,
 				FA6332691B8B33610029D46E /* AppDelegate.m in Sources */,
+				FAE237C31BCC61E9001AA4F5 /* ODMyOngsTableViewController.m in Sources */,
 				FAA486601BA3B0C400992085 /* ODInitialView.m in Sources */,
 				FA6332661B8B33610029D46E /* main.m in Sources */,
+				FAE237C71BCC6457001AA4F5 /* ODAddOngViewController.m in Sources */,
 				FAE237941BC9CD04001AA4F5 /* ODSignUpViewController.m in Sources */,
 				FAE1B94E1BC487A8000CC65D /* UIFont+ODFonts.m in Sources */,
 				FAB9DC111BA5EB9200A9FA4E /* ODButton.m in Sources */,
