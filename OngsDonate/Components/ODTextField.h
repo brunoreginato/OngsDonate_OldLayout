@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ODTextField : UITextField
+@interface ODTextField : UITextField <UITextFieldDelegate>
 
 @end

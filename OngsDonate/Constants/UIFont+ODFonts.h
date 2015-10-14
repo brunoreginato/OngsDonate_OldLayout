@@ -10,14 +10,13 @@
 
 @interface UIFont (ODFonts)
 
-+(UIFont *)ODTextFieldFont;
++(UIFont *) ODMicroText;
++(UIFont *) ODSmallText;
++(UIFont *) ODMediumText;
++(UIFont *) ODLargeText;
 
-+(UIFont *)ODButtonFont;
-
-+(UIFont *)ODBoldButtonFont;
-
-+(UIFont *)ODBoldLabelFont;
-
-+(UIFont *)ODLabelFont;
-
++(UIFont *) ODMicroBoldText;
++(UIFont *) ODSmallBoldText;
++(UIFont *) ODMediumBoldText;
++(UIFont *) ODLargeBoldText;
 @end

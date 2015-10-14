@@ -7,7 +7,8 @@
 //
 
 #import "ODButton.h"
-#import "ODUIConstants.h"
+#import "UIColor+ODColors.h"
+#import "UIFont+ODFonts.h"
 
 @implementation ODButton
 
@@ -29,7 +30,7 @@
 
 -(void)setup {
     [self setTitleColor:[UIColor ODRedColor] forState:UIControlStateNormal];
-    [[self titleLabel] setFont:[UIFont ODButtonFont]];
+    [[self titleLabel] setFont:[UIFont ODSmallText]];
 }
 
 

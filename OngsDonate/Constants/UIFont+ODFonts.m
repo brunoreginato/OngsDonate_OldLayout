@@ -12,27 +12,44 @@
 NSString *const kBaseFontFamily = @"FuturaLT-Light";
 NSString *const kBaseBoldFontFamily = @"FuturaLT-Book";
 
+NSInteger const kMicroFontSize = 12;
 NSInteger const kSmallFontSize = 16;
+NSInteger const kMediumFontSize = 18;
 NSInteger const kLargeFontSize = 21;
 
-+(UIFont *)ODTextFieldFont {
-    return [UIFont fontWithName: kBaseFontFamily size: kSmallFontSize];
+//Normal text
++(UIFont *) ODMicroText{
+    return [UIFont fontWithName:kBaseFontFamily size:kMicroFontSize];
 }
 
-+(UIFont *)ODButtonFont {
-    return [UIFont fontWithName: kBaseFontFamily size: kLargeFontSize];
++(UIFont *) ODSmallText{
+    return [UIFont fontWithName:kBaseFontFamily size:kSmallFontSize];
 }
 
-+(UIFont *)ODBoldButtonFont {
-    return [UIFont fontWithName: kBaseBoldFontFamily size: kLargeFontSize];
++(UIFont *) ODMediumText{
+    return [UIFont fontWithName:kBaseFontFamily size:kMediumFontSize];
 }
 
-+(UIFont *)ODBoldLabelFont {
-    return [UIFont fontWithName: kBaseBoldFontFamily size: kSmallFontSize];
++(UIFont *) ODLargeText{
+    return [UIFont fontWithName:kBaseFontFamily size:kLargeFontSize];
 }
 
-+(UIFont *)ODLabelFont {
-    return [UIFont fontWithName: kBaseFontFamily size: kSmallFontSize];
+//Bold Font
++(UIFont *) ODMicroBoldText{
+    return [UIFont fontWithName:kBaseBoldFontFamily size:kMicroFontSize];
 }
+
++(UIFont *) ODSmallBoldText{
+    return [UIFont fontWithName:kBaseBoldFontFamily size:kSmallFontSize];
+}
+
++(UIFont *) ODMediumBoldText{
+    return [UIFont fontWithName:kBaseBoldFontFamily size:kMediumFontSize];
+}
+
++(UIFont *) ODLargeBoldText{
+    return [UIFont fontWithName:kBaseBoldFontFamily size:kLargeFontSize];
+}
+
 
 @end

@@ -67,9 +67,17 @@
                                                          forBarMetrics:UIBarMetricsDefault];
     
     //title style
-    NSDictionary * titleAttributes = @{NSFontAttributeName:[UIFont ODBoldButtonFont],
+    NSDictionary * titleAttributes = @{NSFontAttributeName:[UIFont ODSmallBoldText],
                                        NSForegroundColorAttributeName:[UIColor ODRedColor]};
     [[UINavigationBar appearance] setTitleTextAttributes:titleAttributes];
+    
+    //Removing the line between the view and the navBar
+    [[UINavigationBar appearance] setBackgroundImage:[[UIImage alloc] init]
+                                      forBarPosition:UIBarPositionAny
+                                          barMetrics:UIBarMetricsDefault];
+    
+    [[UINavigationBar appearance] setShadowImage:[[UIImage alloc] init]];
+
 }
 
 @end

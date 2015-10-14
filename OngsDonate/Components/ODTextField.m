@@ -11,7 +11,7 @@
 #import "UIColor+ODColors.h"
 
 @interface ODTextField()
-
+@property UILabel *placeholderLabel;
 @end
 
 @implementation ODTextField
@@ -32,8 +32,9 @@
 }
 
 -(void)setup {
-    [self setFont: [UIFont ODTextFieldFont]];
+    [self setFont: [UIFont ODSmallText]];
     [self setTextColor: [UIColor ODRedColor]];
+    self.delegate = self;
     
     [self setupBorder];
     [self setupPlaceholder];
@@ -44,10 +45,10 @@
     
     CALayer *bottomBorder = [CALayer layer];
     
-    CGFloat y = self.frame.size.height - 1.0f;
+    CGFloat y = self.frame.size.height - 0.5f;
     CGFloat w = self.frame.size.width;
     
-    bottomBorder.frame = CGRectMake(0.0f,y,w,1.0f);
+    bottomBorder.frame = CGRectMake(0.0f,y,w,0.5f);
     bottomBorder.backgroundColor = [UIColor ODRedColor].CGColor;
     
     [self.layer addSublayer:bottomBorder];
@@ -55,20 +56,42 @@
 }
 
 -(void)setupPlaceholder {
-    if ([self.attributedPlaceholder length])
-    {
-        // Extract attributes
-        NSDictionary * attributes = (NSMutableDictionary *)[ (NSAttributedString *)self.attributedPlaceholder attributesAtIndex:0 effectiveRange:NULL];
-        
-        NSMutableDictionary * newAttributes = [[NSMutableDictionary alloc] initWithDictionary:attributes];
-        
-        [newAttributes setObject:self.textColor forKey:NSForegroundColorAttributeName];
-        [newAttributes setObject:self.font forKey:NSFontAttributeName];
-        
-        // Set new text with extracted attributes
-        self.attributedPlaceholder = [[NSAttributedString alloc] initWithString:[self.attributedPlaceholder string] attributes:newAttributes];
-        
-    }
+    self.placeholderLabel = [[UILabel alloc] init];
+    [self.placeholderLabel setText:self.placeholder];
+    [self.placeholderLabel setTextColor:[UIColor ODRedColor]];
+    
+    [self addSubview:self.placeholderLabel];
+    self.placeholder = @"";
+    
+    [self animatePlaceHolder];
+}
+
+-(void) setupPlaceholderStateNormal {
+    [self.placeholderLabel setFrame:CGRectMake(0, 5, self.frame.size.width, self.frame.size.height)];
+    [self.placeholderLabel setFont:[UIFont ODSmallText]];
+}
+
+-(void) setupPlaceholderStateFocused {
+    [self.placeholderLabel setFrame:CGRectMake(0, 0, self.frame.size.width, 10.0f)];
+    [self.placeholderLabel setFont:[UIFont ODMicroText]];
+}
+
+-(void) animatePlaceHolder {
+    [UIView animateWithDuration:0.2f animations:^{
+        if(![self.text isEqualToString:@""] || self.isFirstResponder) {
+            [self setupPlaceholderStateFocused];
+        } else {
+            [self setupPlaceholderStateNormal];
+        }
+    }];
+}
+
+- (void)textFieldDidBeginEditing:(UITextField *)textField {
+    [self animatePlaceHolder];
+}
+
+- (void)textFieldDidEndEditing:(UITextField *)textField {
+    [self animatePlaceHolder];
 }
 
 

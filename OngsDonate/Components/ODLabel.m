@@ -28,7 +28,7 @@
 
 -(void)setup {
     [self setTextColor:[UIColor ODRedColor]];
-    [self setFont:[UIFont ODButtonFont]];
+    [self setFont:[UIFont ODSmallText]];
 }
 
 @end
