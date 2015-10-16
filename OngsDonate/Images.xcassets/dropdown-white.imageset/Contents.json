@@ -3,17 +3,17 @@
     {
       "idiom" : "universal",
       "scale" : "1x",
-      "filename" : "cam-pressed-icon.png"
+      "filename" : "dropdown-icon.png"
     },
     {
       "idiom" : "universal",
       "scale" : "2x",
-      "filename" : "cam-pressed-icon@2x.png"
+      "filename" : "dropdown-icon@2x.png"
     },
     {
       "idiom" : "universal",
       "scale" : "3x",
-      "filename" : "cam-pressed-icon@3x.png"
+      "filename" : "dropdown-icon@3x.png"
     }
   ],
   "info" : {

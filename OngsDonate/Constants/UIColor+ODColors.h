@@ -10,4 +10,5 @@
 
 @interface UIColor (ODColors)
 +(UIColor *)ODRedColor;
++(UIColor *)ODGrayColor;
 @end

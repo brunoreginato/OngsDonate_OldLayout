@@ -16,10 +16,13 @@
 		FA6332801B8B33610029D46E /* OngsDonateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA63327F1B8B33610029D46E /* OngsDonateTests.m */; };
 		FAA486601BA3B0C400992085 /* ODInitialView.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA4865F1BA3B0C400992085 /* ODInitialView.m */; };
 		FAA486631BA3B0E000992085 /* ODInitialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA486621BA3B0E000992085 /* ODInitialViewController.m */; };
+		FAB0FCC11BCF2DEE00631846 /* ODCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB0FCC01BCF2DEE00631846 /* ODCameraViewController.m */; };
 		FAB9DC071BA4B01D00A9FA4E /* ODTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB9DC061BA4B01D00A9FA4E /* ODTextField.m */; };
 		FAB9DC0E1BA5DD3500A9FA4E /* UIColor+ODColors.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB9DC0D1BA5DD3500A9FA4E /* UIColor+ODColors.m */; };
 		FAB9DC111BA5EB9200A9FA4E /* ODButton.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB9DC101BA5EB9200A9FA4E /* ODButton.m */; };
 		FAB9DC171BA64D1B00A9FA4E /* ODLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB9DC161BA64D1B00A9FA4E /* ODLoginViewController.m */; };
+		FABF2C511BD11A9E00518A6A /* ODUnderlinedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = FABF2C501BD11A9E00518A6A /* ODUnderlinedLabel.m */; };
+		FABF2C541BD11E4200518A6A /* ODSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = FABF2C531BD11E4200518A6A /* ODSelectView.m */; };
 		FAE1B94E1BC487A8000CC65D /* UIFont+ODFonts.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE1B94D1BC487A8000CC65D /* UIFont+ODFonts.m */; };
 		FAE1B9651BC489FB000CC65D /* Futura LT Bold Oblique.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAE1B9511BC489FB000CC65D /* Futura LT Bold Oblique.ttf */; };
 		FAE1B9661BC489FB000CC65D /* Futura LT Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAE1B9521BC489FB000CC65D /* Futura LT Bold.ttf */; };
@@ -85,6 +88,8 @@
 		FAA4865F1BA3B0C400992085 /* ODInitialView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ODInitialView.m; path = Views/ODInitialView.m; sourceTree = "<group>"; };
 		FAA486611BA3B0E000992085 /* ODInitialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ODInitialViewController.h; path = Controllers/ODInitialViewController.h; sourceTree = "<group>"; };
 		FAA486621BA3B0E000992085 /* ODInitialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ODInitialViewController.m; path = Controllers/ODInitialViewController.m; sourceTree = "<group>"; };
+		FAB0FCBF1BCF2DEE00631846 /* ODCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ODCameraViewController.h; path = Controllers/Camera/ODCameraViewController.h; sourceTree = "<group>"; };
+		FAB0FCC01BCF2DEE00631846 /* ODCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ODCameraViewController.m; path = Controllers/Camera/ODCameraViewController.m; sourceTree = "<group>"; };
 		FAB9DC051BA4B01D00A9FA4E /* ODTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ODTextField.h; path = Components/ODTextField.h; sourceTree = "<group>"; };
 		FAB9DC061BA4B01D00A9FA4E /* ODTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ODTextField.m; path = Components/ODTextField.m; sourceTree = "<group>"; };
 		FAB9DC0C1BA5DD3500A9FA4E /* UIColor+ODColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+ODColors.h"; path = "Constants/UIColor+ODColors.h"; sourceTree = "<group>"; };
@@ -93,6 +98,10 @@
 		FAB9DC101BA5EB9200A9FA4E /* ODButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ODButton.m; path = Components/ODButton.m; sourceTree = "<group>"; };
 		FAB9DC151BA64D1B00A9FA4E /* ODLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ODLoginViewController.h; path = Controllers/ODLoginViewController.h; sourceTree = "<group>"; };
 		FAB9DC161BA64D1B00A9FA4E /* ODLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ODLoginViewController.m; path = Controllers/ODLoginViewController.m; sourceTree = "<group>"; };
+		FABF2C4F1BD11A9E00518A6A /* ODUnderlinedLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ODUnderlinedLabel.h; path = Components/ODUnderlinedLabel.h; sourceTree = "<group>"; };
+		FABF2C501BD11A9E00518A6A /* ODUnderlinedLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ODUnderlinedLabel.m; path = Components/ODUnderlinedLabel.m; sourceTree = "<group>"; };
+		FABF2C521BD11E4200518A6A /* ODSelectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ODSelectView.h; path = Components/ODSelectView.h; sourceTree = "<group>"; };
+		FABF2C531BD11E4200518A6A /* ODSelectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ODSelectView.m; path = Components/ODSelectView.m; sourceTree = "<group>"; };
 		FAE1B94C1BC487A8000CC65D /* UIFont+ODFonts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIFont+ODFonts.h"; path = "Constants/UIFont+ODFonts.h"; sourceTree = "<group>"; };
 		FAE1B94D1BC487A8000CC65D /* UIFont+ODFonts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIFont+ODFonts.m"; path = "Constants/UIFont+ODFonts.m"; sourceTree = "<group>"; };
 		FAE1B9511BC489FB000CC65D /* Futura LT Bold Oblique.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Futura LT Bold Oblique.ttf"; sourceTree = "<group>"; };
@@ -255,6 +264,7 @@
 		FAA4865B1BA3AFC500992085 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				FAB0FCBE1BCF2DD000631846 /* Camera */,
 				FAE237C41BCC641C001AA4F5 /* Add Ong */,
 				FAE237C01BCC61B9001AA4F5 /* My Ongs */,
 				FAE237BC1BCBF967001AA4F5 /* Home */,
@@ -287,6 +297,15 @@
 			name = Views;
 			sourceTree = "<group>";
 		};
+		FAB0FCBE1BCF2DD000631846 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				FAB0FCBF1BCF2DEE00631846 /* ODCameraViewController.h */,
+				FAB0FCC01BCF2DEE00631846 /* ODCameraViewController.m */,
+			);
+			name = Camera;
+			sourceTree = "<group>";
+		};
 		FAB9DC041BA4AFCD00A9FA4E /* Components */ = {
 			isa = PBXGroup;
 			children = (
@@ -300,6 +319,10 @@
 				FAE2379F1BCA936D001AA4F5 /* ODBoldLabel.m */,
 				FAE237A41BCA99A9001AA4F5 /* ODProfileImage.h */,
 				FAE237A51BCA99A9001AA4F5 /* ODProfileImage.m */,
+				FABF2C4F1BD11A9E00518A6A /* ODUnderlinedLabel.h */,
+				FABF2C501BD11A9E00518A6A /* ODUnderlinedLabel.m */,
+				FABF2C521BD11E4200518A6A /* ODSelectView.h */,
+				FABF2C531BD11E4200518A6A /* ODSelectView.m */,
 			);
 			name = Components;
 			sourceTree = "<group>";
@@ -599,6 +622,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAE237BF1BCBF9CB001AA4F5 /* ODHomeViewController.m in Sources */,
+				FABF2C511BD11A9E00518A6A /* ODUnderlinedLabel.m in Sources */,
 				FAE237B51BCA9E0C001AA4F5 /* ODEditProfileViewController.m in Sources */,
 				FAA486631BA3B0E000992085 /* ODInitialViewController.m in Sources */,
 				FAE237981BC9CD2A001AA4F5 /* ODSignUpView.m in Sources */,
@@ -612,12 +636,14 @@
 				FAA486601BA3B0C400992085 /* ODInitialView.m in Sources */,
 				FA6332661B8B33610029D46E /* main.m in Sources */,
 				FAE237C71BCC6457001AA4F5 /* ODAddOngViewController.m in Sources */,
+				FABF2C541BD11E4200518A6A /* ODSelectView.m in Sources */,
 				FAE237941BC9CD04001AA4F5 /* ODSignUpViewController.m in Sources */,
 				FAE1B94E1BC487A8000CC65D /* UIFont+ODFonts.m in Sources */,
 				FAB9DC111BA5EB9200A9FA4E /* ODButton.m in Sources */,
 				FAB9DC171BA64D1B00A9FA4E /* ODLoginViewController.m in Sources */,
 				FAE237B21BCA9D6F001AA4F5 /* ODProfileViewController.m in Sources */,
 				FAB9DC071BA4B01D00A9FA4E /* ODTextField.m in Sources */,
+				FAB0FCC11BCF2DEE00631846 /* ODCameraViewController.m in Sources */,
 				FAB9DC0E1BA5DD3500A9FA4E /* UIColor+ODColors.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -14,4 +14,7 @@
     return [UIColor colorWithRed:222.0/255.0 green:45.0/255.0 blue:45.0/255.0 alpha:1.0f];
 }
 
++(UIColor *)ODGrayColor {
+    return [UIColor colorWithRed:241.0/255.0 green:241.0/255.0 blue:241.0/255.0 alpha:1.0f];
+}
 @end
