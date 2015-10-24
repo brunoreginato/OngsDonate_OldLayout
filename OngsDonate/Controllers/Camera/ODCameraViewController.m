@@ -39,6 +39,7 @@
 
 #pragma mark - UIViewController lifecycle
 
+
 /**
  *  Prepares the receiver for service after it has been loaded from an Interface Builder archive, or nib file.
  *  The nib-loading infrastructure sends an awakeFromNib message to each object recreated from a nib archive, but only after all the objects in the archive have been loaded and initialized. When an object receives an awakeFromNib message, it is guaranteed to have all its outlet and action connections already established.
@@ -59,6 +60,7 @@
  */
 -(void)viewDidLoad
 {
+    [super viewDidLoad];
     [self setupCameraView];
     [self roundButton];
 }
@@ -77,6 +79,7 @@
 -(void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
+    [self.navigationController setNavigationBarHidden:YES animated:YES];
     
     [self start];
 }
@@ -575,5 +578,9 @@ BOOL rectangleDetectionConfidenceHighEnough(float confidence)
     return (confidence > 1.0);
 }
 
+#pragma mark - UIButtons
+- (IBAction)close:(id)sender {
+    [self.tabBarController setSelectedIndex:0];
+}
 
 @end

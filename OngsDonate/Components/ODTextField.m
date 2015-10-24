@@ -63,7 +63,7 @@
     [self addSubview:self.placeholderLabel];
     self.placeholder = @"";
     
-    [self animatePlaceHolder];
+    [self setupPlaceholderState];
 }
 
 -(void) setupPlaceholderStateNormal {
@@ -76,13 +76,17 @@
     [self.placeholderLabel setFont:[UIFont ODMicroText]];
 }
 
+-(void) setupPlaceholderState {
+    if(![self.text isEqualToString:@""] || self.isFirstResponder) {
+        [self setupPlaceholderStateFocused];
+    } else {
+        [self setupPlaceholderStateNormal];
+    }
+}
+
 -(void) animatePlaceHolder {
     [UIView animateWithDuration:0.2f animations:^{
-        if(![self.text isEqualToString:@""] || self.isFirstResponder) {
-            [self setupPlaceholderStateFocused];
-        } else {
-            [self setupPlaceholderStateNormal];
-        }
+        [self setupPlaceholderState];
     }];
 }
 

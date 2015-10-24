@@ -57,6 +57,14 @@
 		FAE237BF1BCBF9CB001AA4F5 /* ODHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE237BE1BCBF9CB001AA4F5 /* ODHomeViewController.m */; };
 		FAE237C31BCC61E9001AA4F5 /* ODMyOngsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE237C21BCC61E9001AA4F5 /* ODMyOngsTableViewController.m */; };
 		FAE237C71BCC6457001AA4F5 /* ODAddOngViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE237C61BCC6457001AA4F5 /* ODAddOngViewController.m */; };
+		FAE548AF1BDBA0F1002EBA20 /* ODDonationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE548AE1BDBA0F1002EBA20 /* ODDonationViewController.m */; };
+		FAE548B21BDBA193002EBA20 /* ODDonationView.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE548B11BDBA193002EBA20 /* ODDonationView.m */; };
+		FAE548B91BDBB4FE002EBA20 /* ODPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE548B81BDBB4FE002EBA20 /* ODPerson.m */; };
+		FAE548BC1BDBB515002EBA20 /* ODTax.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE548BB1BDBB515002EBA20 /* ODTax.m */; };
+		FAE548BF1BDBB52A002EBA20 /* ODOng.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE548BE1BDBB52A002EBA20 /* ODOng.m */; };
+		FAE548C21BDBB53B002EBA20 /* ODDonation.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE548C11BDBB53B002EBA20 /* ODDonation.m */; };
+		FAE548C51BDBB8AB002EBA20 /* NSString+ODStringUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE548C41BDBB8AB002EBA20 /* NSString+ODStringUtils.m */; };
+		FAE548C81BDBE445002EBA20 /* ODHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE548C71BDBE445002EBA20 /* ODHTTPSessionManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -149,6 +157,22 @@
 		FAE237C21BCC61E9001AA4F5 /* ODMyOngsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ODMyOngsTableViewController.m; path = "Controllers/My Ongs/ODMyOngsTableViewController.m"; sourceTree = "<group>"; };
 		FAE237C51BCC6457001AA4F5 /* ODAddOngViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ODAddOngViewController.h; path = "Controllers/Add Ong/ODAddOngViewController.h"; sourceTree = "<group>"; };
 		FAE237C61BCC6457001AA4F5 /* ODAddOngViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ODAddOngViewController.m; path = "Controllers/Add Ong/ODAddOngViewController.m"; sourceTree = "<group>"; };
+		FAE548AD1BDBA0F1002EBA20 /* ODDonationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ODDonationViewController.h; path = Controllers/Donation/ODDonationViewController.h; sourceTree = "<group>"; };
+		FAE548AE1BDBA0F1002EBA20 /* ODDonationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ODDonationViewController.m; path = Controllers/Donation/ODDonationViewController.m; sourceTree = "<group>"; };
+		FAE548B01BDBA193002EBA20 /* ODDonationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ODDonationView.h; path = Views/Donation/ODDonationView.h; sourceTree = "<group>"; };
+		FAE548B11BDBA193002EBA20 /* ODDonationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ODDonationView.m; path = Views/Donation/ODDonationView.m; sourceTree = "<group>"; };
+		FAE548B71BDBB4FE002EBA20 /* ODPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ODPerson.h; path = Models/ODPerson.h; sourceTree = "<group>"; };
+		FAE548B81BDBB4FE002EBA20 /* ODPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ODPerson.m; path = Models/ODPerson.m; sourceTree = "<group>"; };
+		FAE548BA1BDBB515002EBA20 /* ODTax.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ODTax.h; path = Models/ODTax.h; sourceTree = "<group>"; };
+		FAE548BB1BDBB515002EBA20 /* ODTax.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ODTax.m; path = Models/ODTax.m; sourceTree = "<group>"; };
+		FAE548BD1BDBB52A002EBA20 /* ODOng.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ODOng.h; path = Models/ODOng.h; sourceTree = "<group>"; };
+		FAE548BE1BDBB52A002EBA20 /* ODOng.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ODOng.m; path = Models/ODOng.m; sourceTree = "<group>"; };
+		FAE548C01BDBB53B002EBA20 /* ODDonation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ODDonation.h; path = Models/ODDonation.h; sourceTree = "<group>"; };
+		FAE548C11BDBB53B002EBA20 /* ODDonation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ODDonation.m; path = Models/ODDonation.m; sourceTree = "<group>"; };
+		FAE548C31BDBB8AB002EBA20 /* NSString+ODStringUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+ODStringUtils.h"; path = "Components/NSString+ODStringUtils.h"; sourceTree = "<group>"; };
+		FAE548C41BDBB8AB002EBA20 /* NSString+ODStringUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+ODStringUtils.m"; path = "Components/NSString+ODStringUtils.m"; sourceTree = "<group>"; };
+		FAE548C61BDBE445002EBA20 /* ODHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ODHTTPSessionManager.h; path = Connection/ODHTTPSessionManager.h; sourceTree = "<group>"; };
+		FAE548C71BDBE445002EBA20 /* ODHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ODHTTPSessionManager.m; path = Connection/ODHTTPSessionManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -257,6 +281,8 @@
 		FAA4865A1BA3AFAE00992085 /* Connection */ = {
 			isa = PBXGroup;
 			children = (
+				FAE548C61BDBE445002EBA20 /* ODHTTPSessionManager.h */,
+				FAE548C71BDBE445002EBA20 /* ODHTTPSessionManager.m */,
 			);
 			name = Connection;
 			sourceTree = "<group>";
@@ -264,6 +290,7 @@
 		FAA4865B1BA3AFC500992085 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				FAE548AC1BDBA0C0002EBA20 /* Donation */,
 				FAB0FCBE1BCF2DD000631846 /* Camera */,
 				FAE237C41BCC641C001AA4F5 /* Add Ong */,
 				FAE237C01BCC61B9001AA4F5 /* My Ongs */,
@@ -283,6 +310,14 @@
 		FAA4865C1BA3AFD300992085 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				FAE548BA1BDBB515002EBA20 /* ODTax.h */,
+				FAE548BB1BDBB515002EBA20 /* ODTax.m */,
+				FAE548B71BDBB4FE002EBA20 /* ODPerson.h */,
+				FAE548B81BDBB4FE002EBA20 /* ODPerson.m */,
+				FAE548BD1BDBB52A002EBA20 /* ODOng.h */,
+				FAE548BE1BDBB52A002EBA20 /* ODOng.m */,
+				FAE548C01BDBB53B002EBA20 /* ODDonation.h */,
+				FAE548C11BDBB53B002EBA20 /* ODDonation.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -290,6 +325,7 @@
 		FAA4865D1BA3AFDA00992085 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				FAE548B31BDBA19F002EBA20 /* Donation */,
 				FAE2378E1BC9CBF2001AA4F5 /* Sign Up */,
 				FAA4865E1BA3B0C400992085 /* ODInitialView.h */,
 				FAA4865F1BA3B0C400992085 /* ODInitialView.m */,
@@ -323,6 +359,8 @@
 				FABF2C501BD11A9E00518A6A /* ODUnderlinedLabel.m */,
 				FABF2C521BD11E4200518A6A /* ODSelectView.h */,
 				FABF2C531BD11E4200518A6A /* ODSelectView.m */,
+				FAE548C31BDBB8AB002EBA20 /* NSString+ODStringUtils.h */,
+				FAE548C41BDBB8AB002EBA20 /* NSString+ODStringUtils.m */,
 			);
 			name = Components;
 			sourceTree = "<group>";
@@ -464,6 +502,24 @@
 			name = "Add Ong";
 			sourceTree = "<group>";
 		};
+		FAE548AC1BDBA0C0002EBA20 /* Donation */ = {
+			isa = PBXGroup;
+			children = (
+				FAE548AD1BDBA0F1002EBA20 /* ODDonationViewController.h */,
+				FAE548AE1BDBA0F1002EBA20 /* ODDonationViewController.m */,
+			);
+			name = Donation;
+			sourceTree = "<group>";
+		};
+		FAE548B31BDBA19F002EBA20 /* Donation */ = {
+			isa = PBXGroup;
+			children = (
+				FAE548B01BDBA193002EBA20 /* ODDonationView.h */,
+				FAE548B11BDBA193002EBA20 /* ODDonationView.m */,
+			);
+			name = Donation;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -516,6 +572,7 @@
 				TargetAttributes = {
 					FA63325F1B8B33610029D46E = {
 						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = DC7P966WU6;
 					};
 					FA6332781B8B33610029D46E = {
 						CreatedOnToolsVersion = 6.1;
@@ -624,9 +681,15 @@
 				FAE237BF1BCBF9CB001AA4F5 /* ODHomeViewController.m in Sources */,
 				FABF2C511BD11A9E00518A6A /* ODUnderlinedLabel.m in Sources */,
 				FAE237B51BCA9E0C001AA4F5 /* ODEditProfileViewController.m in Sources */,
+				FAE548C81BDBE445002EBA20 /* ODHTTPSessionManager.m in Sources */,
 				FAA486631BA3B0E000992085 /* ODInitialViewController.m in Sources */,
+				FAE548C21BDBB53B002EBA20 /* ODDonation.m in Sources */,
+				FAE548BF1BDBB52A002EBA20 /* ODOng.m in Sources */,
 				FAE237981BC9CD2A001AA4F5 /* ODSignUpView.m in Sources */,
+				FAE548C51BDBB8AB002EBA20 /* NSString+ODStringUtils.m in Sources */,
 				FAE237A61BCA99A9001AA4F5 /* ODProfileImage.m in Sources */,
+				FAE548B91BDBB4FE002EBA20 /* ODPerson.m in Sources */,
+				FAE548AF1BDBA0F1002EBA20 /* ODDonationViewController.m in Sources */,
 				FAE237A01BCA936D001AA4F5 /* ODBoldLabel.m in Sources */,
 				FAE237B81BCBE7FD001AA4F5 /* ODMyHistoryTableViewController.m in Sources */,
 				FAE2379D1BCA9315001AA4F5 /* ODLabel.m in Sources */,
@@ -645,6 +708,8 @@
 				FAB9DC071BA4B01D00A9FA4E /* ODTextField.m in Sources */,
 				FAB0FCC11BCF2DEE00631846 /* ODCameraViewController.m in Sources */,
 				FAB9DC0E1BA5DD3500A9FA4E /* UIColor+ODColors.m in Sources */,
+				FAE548BC1BDBB515002EBA20 /* ODTax.m in Sources */,
+				FAE548B21BDBA193002EBA20 /* ODDonationView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -703,6 +768,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Ci&T, Inc.";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -744,6 +810,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Ci&T, Inc.";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
@@ -767,9 +834,11 @@
 			baseConfigurationReference = 16F794CE987025BFC1523592 /* Pods-OngsDonate.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Ci&T, Inc.";
 				INFOPLIST_FILE = OngsDonate/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "0c1c91b4-a741-49fd-ba27-e01f2bb8c61b";
 			};
 			name = Debug;
 		};
@@ -778,9 +847,11 @@
 			baseConfigurationReference = 9C332DB3ED9D65004C88531A /* Pods-OngsDonate.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Ci&T, Inc.";
 				INFOPLIST_FILE = OngsDonate/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "0c1c91b4-a741-49fd-ba27-e01f2bb8c61b";
 			};
 			name = Release;
 		};
