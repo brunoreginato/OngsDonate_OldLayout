@@ -98,6 +98,11 @@
     [self animatePlaceHolder];
 }
 
+-(void)setText:(NSString *)text {
+    [super setText:text];
+    
+    [self animatePlaceHolder];
+}
 
 
 @end
